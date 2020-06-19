@@ -1,0 +1,6 @@
+filters:
+  ".*":
+    approvers:
+      - 1ok1
+    lables:
+      - area/prow
