@@ -15,10 +15,10 @@ let package = Package(
   // 7
   dependencies: [
     .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.7"),
-  ]
+  ],
   // 8
   targets: [
     .target(name: "MMParallaxCollectionView", path: "Source"))
-  ]
+  ],
   swiftLanguageVersions: [.v5]
 )
