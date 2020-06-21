@@ -1,0 +1,4 @@
+module MMParallaxCollectionView {
+    header "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView-Swift.h"
+    requires objc
+}

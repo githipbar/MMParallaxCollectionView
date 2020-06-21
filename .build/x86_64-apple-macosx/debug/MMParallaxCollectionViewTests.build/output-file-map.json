@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/master.swiftdeps"
+  },
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/MMParallaxCollectionViewTests.swift": {
+    "dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.d",
+    "object": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.swift.o",
+    "swiftmodule": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.swiftdeps"
+  },
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/XCTestManifests.swift": {
+    "dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.d",
+    "object": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.swiftdeps"
+  }
+}

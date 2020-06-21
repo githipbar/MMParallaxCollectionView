@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "ce6f2c4d04188cc85bdd9cbb1a78900f"
+build_time: [1592756147, 544078000]
+inputs:
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Sources/MMParallaxCollectionView/MMParallaxCollectionView.swift": [1592755589, 239395491]

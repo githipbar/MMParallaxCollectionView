@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "MMParallaxCollectionView",
+      "productName" : "MMParallaxCollectionViewPackageTests",
+      "testBinary" : "\/Users\/lokesh\/Documents\/repo\/ios\/MMParallaxCollectionView\/.build\/x86_64-apple-macosx\/debug\/MMParallaxCollectionViewPackageTests.xctest\/Contents\/MacOS\/MMParallaxCollectionViewPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.MMParallaxCollectionView-debug.module" : "MMParallaxCollectionView",
+    "C.MMParallaxCollectionViewTests-debug.module" : "MMParallaxCollectionViewTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

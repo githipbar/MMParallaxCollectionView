@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "MMParallaxCollectionView-debug.module": ["<MMParallaxCollectionView-debug.module>"]
+  "MMParallaxCollectionViewPackageTests-debug.test": ["<MMParallaxCollectionViewPackageTests-debug.test>"]
+  "MMParallaxCollectionViewTests-debug.module": ["<MMParallaxCollectionViewTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<MMParallaxCollectionView-debug.module>"]
+  "test": ["<MMParallaxCollectionView-debug.module>","<MMParallaxCollectionViewPackageTests-debug.test>","<MMParallaxCollectionViewTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Sources/MMParallaxCollectionView/":
+    is-directory-structure: true
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/":
+    is-directory-structure: true
+commands:
+  "<MMParallaxCollectionView-debug.module>":
+    tool: phony
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.swiftmodule"]
+    outputs: ["<MMParallaxCollectionView-debug.module>"]
+
+  "<MMParallaxCollectionViewPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewPackageTests.xctest/Contents/MacOS/MMParallaxCollectionViewPackageTests"]
+    outputs: ["<MMParallaxCollectionViewPackageTests-debug.test>"]
+
+  "<MMParallaxCollectionViewTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.swiftmodule"]
+    outputs: ["<MMParallaxCollectionViewTests-debug.module>"]
+
+  "C.MMParallaxCollectionView-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Sources/MMParallaxCollectionView/MMParallaxCollectionView.swift"]
+    outputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "MMParallaxCollectionView"
+    module-output-path: "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.swiftmodule"
+    import-paths: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build"
+    objects: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView-Swift.h","-color-diagnostics"]
+    sources: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Sources/MMParallaxCollectionView/MMParallaxCollectionView.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "C.MMParallaxCollectionViewPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewPackageTests.xctest/Contents/MacOS/MMParallaxCollectionViewPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewPackageTests.xctest/Contents/MacOS/MMParallaxCollectionViewPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug","-o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewPackageTests.xctest/Contents/MacOS/MMParallaxCollectionViewPackageTests","-module-name","MMParallaxCollectionViewPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-Xlinker","-add_ast_path","-Xlinker","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.MMParallaxCollectionViewTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/MMParallaxCollectionViewTests.swift","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/XCTestManifests.swift","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.swiftmodule"]
+    outputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "MMParallaxCollectionViewTests"
+    module-output-path: "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.swiftmodule"
+    import-paths: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build"
+    objects: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/MMParallaxCollectionViewTests.swift.o","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionViewTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/MMParallaxCollectionViewTests.swift","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Sources/MMParallaxCollectionView/","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Package.swift","/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

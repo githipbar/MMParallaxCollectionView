@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/master.swiftdeps"
+  },
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Sources/MMParallaxCollectionView/MMParallaxCollectionView.swift": {
+    "dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.d",
+    "object": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.swift.o",
+    "swiftmodule": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView~partial.swiftmodule",
+    "swift-dependencies": "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/MMParallaxCollectionView.swiftdeps"
+  }
+}

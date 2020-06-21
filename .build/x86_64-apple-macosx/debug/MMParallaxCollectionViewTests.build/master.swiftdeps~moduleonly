@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "22e56c4acedf365218799d16ffc8c8e3"
+build_time: [1592756155, 185519000]
+inputs:
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/MMParallaxCollectionViewTests.swift": [1592755589, 240210847]
+  "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/Tests/MMParallaxCollectionViewTests/XCTestManifests.swift": [1592755589, 240477061]

@@ -1,0 +1,20 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MMParallaxCollectionView"
+provides-nominal:
+- "24MMParallaxCollectionViewAAV"
+provides-member:
+- ["24MMParallaxCollectionViewAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "MMParallaxCollectionView"
+- "StringLiteralType"
+depends-member:
+- ["24MMParallaxCollectionViewAAV", "init"]
+- ["24MMParallaxCollectionViewAAV", "text"]
+depends-nominal:
+- "24MMParallaxCollectionViewAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/lokesh/Documents/repo/ios/MMParallaxCollectionView/.build/x86_64-apple-macosx/debug/MMParallaxCollectionView.build/module.modulemap"
+interface-hash: "2c25368cc9ffd32f5a4ac9b47efa26af"
