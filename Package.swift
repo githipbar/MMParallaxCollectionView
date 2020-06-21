@@ -21,4 +21,5 @@ let package = Package(
   targets: [
     .target(name: "MMParallaxCollectionView")
   ]
+  swiftLanguageVersions: [.v5]
 )
