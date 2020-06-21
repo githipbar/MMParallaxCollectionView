@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "MMParallaxCollectionView", targets: ["MMParallaxCollectionView"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.10"),
+        .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.7"),
     ],
     targets: [
         .target(name: "MMParallaxCollectionView"),
