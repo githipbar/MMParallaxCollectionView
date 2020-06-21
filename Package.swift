@@ -14,7 +14,7 @@ let package = Package(
   ],
   // 7
   dependencies: [
-    .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.9"),
+    .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.10"),
   ]
   // 8
   targets: [
