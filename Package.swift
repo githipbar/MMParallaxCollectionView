@@ -1,5 +1,5 @@
-// swift-tools-version:5.2.4
-// 2
+// swift-tools-version:5.0
+//
 import PackageDescription
 
 // 3
@@ -14,7 +14,7 @@ let package = Package(
   ],
   // 7
   dependencies: [
-    .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.10"),
+    .package(url: "https://github.com/hipbar/MMParallaxCollectionView.git", from: "0.1.7"),
   ]
   // 8
   targets: [
