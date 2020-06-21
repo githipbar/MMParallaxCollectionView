@@ -7,7 +7,7 @@ let package = Package(
   // 4
   name: "MMParallaxCollectionView",
   // 5
-  platforms: [.iOS(.v13), .macOS(.v10_14)],
+  platforms: [.iOS(.v11), .macOS(.v10_14)],
   // 6
   products: [
     .library(name: "MMParallaxCollectionView", targets: ["MMParallaxCollectionView"])
@@ -18,7 +18,7 @@ let package = Package(
   ]
   // 8
   targets: [
-    .target(name: "MMParallaxCollectionView")
+    .target(name: "MMParallaxCollectionView", path: "Source"))
   ]
   swiftLanguageVersions: [.v5]
 )
